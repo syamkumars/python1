@@ -1,4 +1,5 @@
 import datetime
+import json
 
 #Methods should be defined before they are called in the program. This is because Python reads the code from top to bottom, and if you try to call a method that hasn't been defined yet, it will result in a NameError. By defining methods at the beginning of the program, you ensure that they are available for use when needed later in the code.
 def is_adult(age) -> bool:
@@ -16,10 +17,20 @@ def create_user_summary(user):
     city = user.get("city", "Unknown")
     return f"{name} is {age} years old and lives in {city}. Their birth year is {user.get('birth_year', 'Unknown')}."
 
+def save_users(users):
+    with open("user.json", "w") as file:
+        json.dump(users, file, indent=4)
+
+def load_users():
+    try:
+        with open("user.json", "r") as file:
+            return json.load(file)
+    except FileNotFoundError:
+        return []
 
 def start_ai_journey():
-    users=[]
-    for i in range(3):
+    users=load_users()
+    for i in range(1):
         name = input("What is your name? ")
         age = input("What is your age? ")
         city = input("What is your city?")
@@ -29,8 +40,9 @@ def start_ai_journey():
              "city":city,
              "birth_year":calculate_birth_year(age)
         }
-        users.insert(i,user)
+        users.append(user);
 
+    save_users(users)
 
     # print(create_message(name, age))
     for user in users:

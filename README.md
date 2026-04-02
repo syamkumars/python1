@@ -25,6 +25,17 @@
 - for loop to iterate through lists
 - alt click for multi cursor editing 
 
+## Day 5
+
+- **JSON Library:** Learned to use Python's built-in `json` module for data serialization and deserialization.
+- **File Handling:** Used `with open()` context manager for safe file operations.
+- **Writing JSON:** Used `json.dump()` to save Python dictionaries to a `.json` file.
+- **Reading JSON:** Used `json.load()` to parse JSON data from a file back into Python objects.
+- **Pretty Printing:** Added `indent=4` parameter for human-readable JSON output.
+- **Read/Write Modes:** Understood `"w"` (write/overwrite) vs `"r"` (read) file modes.
+- **Error Handling:** Implemented `try...except` blocks to handle `FileNotFoundError` when loading data.
+
+
 ## Notes
 
 - AI tools can assist coding but understanding is important
