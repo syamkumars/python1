@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Sammy",
+        "age": "38",
+        "city": "WI",
+        "birth_year": 1988
+    },
+    {
+        "name": "Drake",
+        "age": "50",
+        "city": "USA",
+        "birth_year": 1976
+    },
+    {
+        "name": "Kylie",
+        "age": "22",
+        "city": "Jafna",
+        "birth_year": 2004
+    },
+    {
+        "name": "Bobby",
+        "age": "45",
+        "city": "UK",
+        "birth_year": 1981
+    },
+    {
+        "name": "Drago",
+        "age": "77",
+        "city": "TUna",
+        "birth_year": 1949
+    },
+    {
+        "name": "Kylie",
+        "age": "22",
+        "city": "Holmes",
+        "birth_year": 2004
+    },
+    {
+        "name": "Idris",
+        "age": "62",
+        "city": "Idaho",
+        "birth_year": 1964
+    },
+    {
+        "name": "Xavi",
+        "age": "40",
+        "city": "Spain",
+        "birth_year": 1986
+    }
+]

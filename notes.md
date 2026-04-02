@@ -17,7 +17,9 @@
 - **Refactoring:** Use VS Code's rename feature (F2) to refactor code efficiently.
 - **Dictionaries and Lists:** Learned to use dictionaries for key-value pairs and lists for ordered collections of items.
 - **For Loops:** Used for loops to iterate through lists and perform actions on each item.
-
-### Progress
-
-- things were easy
+ 
+- **JSON Library:** Learned to use Python's built-in `json` module for data serialization
+- **File Handling:** Used `with open()` context manager for safe file operations
+- **Writing JSON:** Used `json.dump()` to save Python dictionaries to a `.json` file
+- **Pretty Printing:** Added `indent=4` parameter for human-readable JSON output
+- **Read/Write Modes:** Understood `"w"` (write/overwrite) vs `"r"` (read) file modes
