@@ -12,6 +12,8 @@
 - **Method Definition Order:** Methods must be defined before they are called in the program. Python reads code top-to-bottom, so undefined methods will throw a `NameError`.
 - **Dynamic Typing Limitation:** Python is dynamically typed, so library errors are not highlighted by the IDE by default. Use Pylance with strict type checking mode to catch these errors.
 
+- **Indentation:** Indentation is important in Python
+
 ### Progress
 
 - things were easy

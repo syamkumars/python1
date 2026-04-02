@@ -13,6 +13,12 @@
 - Used GitHub Copilot to generate a function
 - Built a small logic (birth year calculator)
 
+## Day 3
+- Learned proper function structure
+- Broke code into reusable components
+- Used Copilot to build logic (is_adult)
+- Practiced refactoring using VS Code rename
+
 ## Notes
 
 - AI tools can assist coding but understanding is important
