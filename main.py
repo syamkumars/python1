@@ -10,10 +10,31 @@ def create_message(name, age):
         # Using an f-string to format the message
         return f"Hello {name}! You are {age} years old. You are {adult_status},  Your birth year is: {birth_year}"
 
+def create_user_summary(user):
+    name = user.get("name", "Unknown")
+    age = user.get("age", "Unknown")
+    city = user.get("city", "Unknown")
+    return f"{name} is {age} years old and lives in {city}. Their birth year is {user.get('birth_year', 'Unknown')}."
+
+
 def start_ai_journey():
-    name = input("What is your name? ")
-    age = input("What is your age? ")
-    print(create_message(name, age))
+    users=[]
+    for i in range(3):
+        name = input("What is your name? ")
+        age = input("What is your age? ")
+        city = input("What is your city?")
+        user={
+             "name":name,
+             "age":age,
+             "city":city,
+             "birth_year":calculate_birth_year(age)
+        }
+        users.insert(i,user)
+
+
+    # print(create_message(name, age))
+    for user in users:
+        print(create_user_summary(user))
 
 def calculate_birth_year(age):
     current_year = datetime.datetime.now().year

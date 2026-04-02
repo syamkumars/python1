@@ -19,6 +19,12 @@
 - Used Copilot to build logic (is_adult)
 - Practiced refactoring using VS Code rename
 
+## Day 4
+- Learned about Dictionaries and Lists
+- Used Copilot to generate code for handling user input and storing data    
+- for loop to iterate through lists
+- alt click for multi cursor editing 
+
 ## Notes
 
 - AI tools can assist coding but understanding is important
