@@ -35,6 +35,14 @@
 - **Read/Write Modes:** Understood `"w"` (write/overwrite) vs `"r"` (read) file modes.
 - **Error Handling:** Implemented `try...except` blocks to handle `FileNotFoundError` when loading data.
 
+## Day 6
+  
+- **While Loops:** Practiced `while` loops for continuous execution and control flow.
+- **Input Validation:** Used `.isdigit()` to verify numeric user input before processing.
+- **Type Conversion:** Used `int()` and `float()` functions to convert strings to appropriate data types.
+- **Error Handling:** Implemented `try...except` blocks to gracefully catch `ValueError` and prevent crashes.
+- **Robust Scripts:** Combined loops, validation, and exception handling to build resilient input prompts.
+
 
 ## Notes
 
