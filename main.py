@@ -30,11 +30,13 @@ def load_users():
 
 def start_ai_journey():
     users=load_users()
-    for i in range(1):
-        name = input("What is your name? ")
-        age = input("What is your age? ")
-        city = input("What is your city?")
-        user={
+    addUser=input("Do you want to add a user? (yes/no) ")
+    if addUser.lower() == "yes" or addUser.lower() == "1" or addUser.lower() == "y":
+        for i in range(1):
+            name = input("What is your name? ")
+            age = input("What is your age? ")
+            city = input("What is your city?")
+            user={
              "name":name,
              "age":age,
              "city":city,
