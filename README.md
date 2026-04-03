@@ -43,6 +43,11 @@
 - **Error Handling:** Implemented `try...except` blocks to gracefully catch `ValueError` and prevent crashes.
 - **Robust Scripts:** Combined loops, validation, and exception handling to build resilient input prompts.
 
+## Day 7
+- Refactored project into multiple files
+- Learned modular programming
+- Separated logic and file handling
+- Improved project structure
 
 ## Notes
 
