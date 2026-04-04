@@ -1,6 +1,7 @@
 
 from filehandler import load_users, save_users
 from utils import calculate_birth_year, get_valid_age, is_adult
+from ai_service import ask_ai
 
 # Methods should be defined before they are called in the program. This is because Python reads the code from top to bottom, and if you try to call a method that hasn't been defined yet, it will result in a NameError. By defining methods at the beginning of the program, you ensure that they are available for use when needed later in the code.
 def create_message(name, age):
@@ -33,9 +34,18 @@ def start_ai_journey():
                 "birth_year": calculate_birth_year(age),
             }
         users.append(user)
-
+        prompt = f"Write a short intro about {name}, a {age}-year-old from {city} starting AI journey."
+        print("\nAI says:")
+        try:
+            ai_response = ask_ai(prompt)
+            print(ai_response)
+            
+        except Exception:
+            print("Error")
+    input("Press Enter key to continue")
     save_users(users)
 
+    
     # print(create_message(name, age))
     for user in users:
         print(create_user_summary(user))

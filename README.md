@@ -35,7 +35,7 @@
 - **Read/Write Modes:** Understood `"w"` (write/overwrite) vs `"r"` (read) file modes.
 - **Error Handling:** Implemented `try...except` blocks to handle `FileNotFoundError` when loading data.
 
-## Day 6
+## Day 6  
   
 - **While Loops:** Practiced `while` loops for continuous execution and control flow.
 - **Input Validation:** Used `.isdigit()` to verify numeric user input before processing.
@@ -48,6 +48,13 @@
 - Learned modular programming
 - Separated logic and file handling
 - Improved project structure
+
+## Day 8
+- Integrated AI API (OpenRouter)
+- Built ai_service module
+- Sent prompts and received responses
+- Connected AI with user data
+- Used api key in .env file for secure access
 
 ## Notes
 
