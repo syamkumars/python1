@@ -1,0 +1,3 @@
+- Be accurate
+- Avoid unnecessary text
+- Give structured output

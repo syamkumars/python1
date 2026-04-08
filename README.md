@@ -14,16 +14,18 @@
 - Built a small logic (birth year calculator)
 
 ## Day 3
+
 - Learned proper function structure
 - Broke code into reusable components
 - Used Copilot to build logic (is_adult)
 - Practiced refactoring using VS Code rename
 
 ## Day 4
+
 - Learned about Dictionaries and Lists
-- Used Copilot to generate code for handling user input and storing data    
+- Used Copilot to generate code for handling user input and storing data
 - for loop to iterate through lists
-- alt click for multi cursor editing 
+- alt click for multi cursor editing
 
 ## Day 5
 
@@ -35,8 +37,8 @@
 - **Read/Write Modes:** Understood `"w"` (write/overwrite) vs `"r"` (read) file modes.
 - **Error Handling:** Implemented `try...except` blocks to handle `FileNotFoundError` when loading data.
 
-## Day 6  
-  
+## Day 6
+
 - **While Loops:** Practiced `while` loops for continuous execution and control flow.
 - **Input Validation:** Used `.isdigit()` to verify numeric user input before processing.
 - **Type Conversion:** Used `int()` and `float()` functions to convert strings to appropriate data types.
@@ -44,19 +46,44 @@
 - **Robust Scripts:** Combined loops, validation, and exception handling to build resilient input prompts.
 
 ## Day 7
+
 - Refactored project into multiple files
 - Learned modular programming
 - Separated logic and file handling
 - Improved project structure
 
 ## Day 8
+
 - Integrated AI API (OpenRouter)
 - Built ai_service module
 - Sent prompts and received responses
 - Connected AI with user data
 - Used api key in .env file for secure access
 
-## Notes
+## 📅 Day 9 – AI Prompt System (Foundation)
 
-- AI tools can assist coding but understanding is important
-- Setup is critical for smooth learning
+### 🔍 What we did
+
+- Introduced a **structured way to use AI** instead of random prompts
+- Created reusable components:
+  - **Persona** → defines how AI should behave
+  - **Rules** → controls AI output quality
+  - **Prompt templates** → reusable task definitions
+- Built a simple workflow:
+  > Persona + Rules + Task + Data → AI Output
+
+---
+
+### 🎯 Why we did this
+
+- Raw AI usage gives **generic, inconsistent results**
+- Structured prompts ensure:
+  - **Consistent output**
+  - **Better quality responses**
+  - **Reusability across use cases**
+
+---
+
+### 🧠 Key Learning
+
+> AI is not plug-and-play — it must be **guided with structure, context, and constraints** to produce useful results.
